@@ -22,7 +22,7 @@ The generation approach requires the following dependencies to run:
 * NVIDIA Container Toolkit
 
 
-# svl - A Python API for SVL Simulator
+# SVL - A Python API for SVL Simulator
 
 Documentation is available on: https://www.svlsimulator.com/docs/
 
