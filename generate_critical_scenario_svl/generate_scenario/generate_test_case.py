@@ -118,4 +118,8 @@ def generate_apollo_case():
         sim.run(0.5)
 
 if __name__ == '__main__':
-    generate_apollo_case()
+    while True:
+        try:
+            generate_apollo_case()
+        except:
+            generate_apollo_case()
