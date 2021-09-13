@@ -32,11 +32,11 @@ Website of Apollo: https://apollo.auto/
 
 Installation of Apollo5.0: https://www.svlsimulator.com/docs/system-under-test/apollo5-0-instructions/
 
-# Demo
+# Run
 
 The demonstration of our approach to generate distinct types of safety violation scenarios is placed in the "examples of distinct safety violation scenarios" folder.
 
-To run the approach, execute the main() method of generate_test_case.py in generation_scenario directory.
+To run the approach, execute the main() method of generate_test_case.py in generation_scenario directory; to stop the running, please press Ctrl+C until the program exits.
 To stop the approach, press and hold control + c until the program exists the loop.
 
 

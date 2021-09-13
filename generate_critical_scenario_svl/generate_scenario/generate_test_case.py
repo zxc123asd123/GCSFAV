@@ -35,7 +35,11 @@ def generate_apollo_case():
         rain, fog, wetness, cloudiness = 0, 0, 0, 0
         if allparameter[0] == 'on':
             signal = sim.get_controllable(lgsvl.Vector(180, 4.7, -38), "signal")
-            control_policy = "trigger=110;green=50;yellow=10;red=50;loop"
+            control_policy = "trigger=100;green=50;yellow=10;red=50;loop"
+            signal.control(control_policy)
+        if allparameter[0] == 'off':
+            signal = sim.get_controllable(lgsvl.Vector(180, 4.7, -38), "signal")
+            control_policy = "trigger=0;green=0;yellow=0;red=0;loop"
             signal.control(control_policy)
         if allparameter[1] == 1:
             rain = random.uniform(0.75, 0.95)
